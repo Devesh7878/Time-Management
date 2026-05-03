@@ -112,27 +112,12 @@ npm run dev
 4. Railway start command: `npm start`.
 5. Copy live backend URL.
 
-### Frontend on Vercel (recommended)
-1. Import repo in Vercel.
+### Frontend on Railway
+1. Create a new Railway service and connect repo.
 2. Set root directory as `frontend`.
 3. Add env `VITE_API_URL=<your-live-backend-url>/api`.
-4. Build command: `npm run build`, output dir: `dist`.
+4. Build command: `npm run build`.
+5. Start command: `npm run preview -- --host 0.0.0.0 --port $PORT`.
 
-You can also deploy frontend on Railway similarly.
 
-## Screenshots
 
-Add screenshots in a `/screenshots` folder and reference them here:
-
-- Signup page
-- Login page
-- Admin panel (projects/tasks)
-- Member dashboard
-
-## Demo Video Checklist
-
-Record a short demo showing:
-- Signup and Login
-- Admin creating a project and assigning tasks
-- Member viewing and updating assigned task status
-- Dashboard stats overview
